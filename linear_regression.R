@@ -277,4 +277,4 @@ energy_gr_tox_regCcontra <- lm(energy ~green + toxic + C(region, contr.helmert),
 summary(energy_gr_tox_regCcontra)
 coef(summary(energy_gr_tox_regCcontra))
 
-plot(energy_gr_tox_reg)
+plot(energy_gr_tox_regCcontra)
