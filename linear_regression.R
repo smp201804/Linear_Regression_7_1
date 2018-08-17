@@ -278,3 +278,5 @@ summary(energy_gr_tox_regCcontra)
 coef(summary(energy_gr_tox_regCcontra))
 
 plot(energy_gr_tox_regCcontra)
+
+
